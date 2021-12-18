@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>ejs website</title>
+
+  <!-- FONTOWESOME FILE -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <!-- BOOTSTRAP FILES -->
+
+  <!-- google font family -->
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- JQURY FILES  -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  <div class="big-container">
+    <!-- NAVBAR SECTION -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" id="EJS" href="#">EJS</a>
+      <button class="navbar-toggler" id="toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a class="nav-link" id="nav-link" href="#middle-container">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link" href="#GET-STARTED">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link" href="#h1-bold">Get Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link" href="#">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link"  href="#h4-bold2">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link" href="#middle-container">License</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  id="nav-link" href="#h4-bold2">GitHub</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+
+
+
+<img class="jake-pic" src="https://ejs.co/assets/images/jake_display.png" alt="">
+
+<h1 class="EJS-ARROW" ><%= <span class="EJS-TEXT">EJS</span>  %></h1>
+
+<h1 class="Embedded-text">Embedded JavaScript templating.</h1>
+
+<button class="btn btn-lg btn-primary" id="GET-STARTED" type="button" name="button">GET STARTED</button>
+
+
+
+
+
+
+
+  </div>
+
+<div class="down-color">
+
+  </div>
+
+<div class="fluid container" id="middle-container">
+  <h1 id="h1-bold">What is EJS?</h1>
+  <p class="paragraph1">What is the "E" for? "Embedded?" Could be. How about "Effective," "Elegant," or just "Easy"? EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow. It's just plain JavaScript.</p>
+
+
+</div>
+
+<div class="fluid container third-container">
+  <div class="row">
+    <div class="col-lg-4">
+
+      <h5 class="h5-all"><i class="fas fa-heart "></i>Use plain JavaScript</h5>
+      <p>We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!</p>
+
+    </div>
+
+    <div class="col-lg-4">
+      <h5 class="h5-all"><i class="fas fa-clock"></i>Fast development time</h5>
+      <p>Don't waste time and attention figuring out arcane new syntax because 'elegance' — or how to preprocess your data so it will actually render right</p>
+
+    </div>
+
+    <div class="col-lg-4">
+      <h5 class="h5-all"><i class="fas fa-code"></i>Simple syntax</h5>
+      <p>JavaScript code in simple, straightforward scriptlet tags. Just write JavaScript that emits the HTML you want, and get the job done!</p>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="row">
+    <div class="col-lg-4">
+      <h5 class="h5-all"><i class="fas fa-fighter-jet"></i>Speedy execution</h5>
+      <p>We all know how fast V8 and the other JavaScript runtimes have gotten. EJS caches the intermediate JS functions for fast execution.</p>
+
+    </div>
+
+    <div class="col-lg-4">
+    <h5 class="h5-all"><i class="fas fa-thumbs-up"></i>Easy debugging</h5>
+      <p>It's easy to debug EJS errors: your errors are plain JavaScript exceptions, with template line-numbers included.</p>
+
+    </div>
+
+    <div class="col-lg-4">
+      <h5 class="h5-all"><i class="fas fa-flask"></i>Active development</h5>
+      <p>EJS has a large community of active users, and the library is under active development. We're happy to answer your questions or give you help.</p>
+
+    </div>
+
+
+
+  </div>
+
+
+</div>
+
+<div class="forth-container">
+    <h1 id="h1-bold">Features</h1>
+    <h6 class="h6-textcolor">Fast compilation and rendering</h6>
+     <h6  class="h6-textcolor">Simple template tags: <% %></h6>
+     <h6  class="h6-textcolor">Custom delimiters (e.g., use [? ?] instead of <% %>)</h6>
+      <h6  class="h6-textcolor">Sub-template includes</h6>
+      <h6  class="h6-textcolor">Ships with CLI</h6>
+      <h6  class="h6-textcolor">Both server JS and browser support</h6>
+      <h6  class="h6-textcolor">Static caching of intermediate JavaScript</h6>
+       <h6  class="h6-textcolor">Static caching of templates</h6>
+       <h6  class="h6-textcolor">Complies with the Express view system</h6>
+
+</div>
+
+
+<div class=" five-container confull">
+  <h1 id="h1-bold">Get Started</h1>
+    <h4 id="h4-bold2">Install</h4>
+  <div class="program1">
+  <h6>It's easy to install EJS with NPM</h6>
+
+  </div>
+  <div class="program2">
+    <h6 class="program-text">$ npm install ejs</h6>
+
+  </div>
+
+  <h4 id="h4-bold2">Use</h4>
+  <div class="program3">
+      <h6 class="h6pro">Pass EJS a template string and some data. BOOM, you've got some HTML.</h6>
+
+  </div>
+
+
+  <div class="program4">
+      <h6 class="program-text2">let ejs = require('ejs');</h6>
+      <h6 class="program-text2">let people = ['geddy', 'neil', 'alex'];</h6>
+      <h6 class="program-text2">let html = ejs.render('<%= people.join(", "); %>', {people: people});</h6>
+
+  </div>
+
+<br>
+<h4 id="h4-bold2">CLI</h4>
+<div class="program3">
+    <h6>Feed it a template file and a data file, and specify an output file.</h6>
+
+</div>
+<div class="program4">
+    <h6 class="program-text2">ejs ./template_file.ejs -f data_file.json -o ./output.html</h6>
+
+
+</div>
+
+<br>
+<h4 id="h4-bold2">Browser support</h4>
+<div class="program3">
+    <h6 class="h6pro">Download a browser build from the latest release, and use it in a script tag.</h6>
+
+</div>
+<div class="program4">
+
+
+  <h6 class="program-text2">let people = ['geddy', 'neil', 'alex'];</h6>
+  <h6 class="program-text2">let html = ejs.render('<%= people.join(", "); %>', {people: people});</h6>
+
+</div>
+
+
+<br>
+<h4 id="h4-bold2">Browser support</h4>
+<div class="program3">
+    <h6 class="h6pro" >Download a browser build from the latest release, and use it in a script tag.</h6>
+
+</div>
+<div class="program4">
+
+
+  <h6 class="program-text2">let people = ['geddy', 'neil', 'alex'];</h6>
+  <h6 class="program-text2">let html = ejs.render('<%= people.join(", "); %>', {people: people});</h6>
+
+</div>
+
+
+<br>
+<h4 id="h4-bold2">Usage</h4>
+<br>
+<div class="program3">
+
+
+</div>
+<div class="program4">
+
+
+  <h6 class="program-text2">let template = ejs.compile(str, options);</h6>
+  <h6 class="program-text2">template(data);</h6>
+  <h6 class="program-text2">// => Rendered HTML string</h6>
+  <br>
+  <h6 class="program-text2">ejs.render(str, data, options);</h6>
+  <h6 class="program-text2">// => Rendered HTML string</h6>
+  <br>
+  <h6 class="program-text2">ejs.renderFile(filename, data, options, function(err, str){</h6>
+  <h6 class="program-text2">// str => Rendered HTML string</h6>
+  <h6 class="program-text2">});</h6>
+
+</div>
+
+
+
+
+<br>
+<h4 id="h4-bold2">Options</h4>
+
+<div class="program5">
+  <ul>
+    <li>
+       <span class="color-fill">functions</span>  are cached, requires filename
+    </li>
+
+    <li>
+        <span class="color-fill"> Used</span> by cache to key caches, and for includes
+    </li>
+
+    <li>
+     <span class="color-fill">root</span> Set project root for includes with an absolute path (e.g, /file.ejs). Can be array to try to resolve
+    </li>
+
+
+    <li>
+      <span class="color-fill">context</span> Function execution context
+    </li>
+
+    <li>
+    <span class="color-fill">compileDebug</span> When false no debug instrumentation is compiled
+    </li>
+
+    <li>
+  <span class="color-fill">client</span> Returns standalone compiled function
+    </li>
+
+
+
+    <li>
+    <span class="color-fill">delimiter</span> Character to use for inner delimiter, by default '%'
+    </li>
+
+    <li>
+    <span class="color-fill">Character</span>  to use for opening delimiter, by default '<'
+    </li>
+
+    <li>
+  <span class="color-fill">closeDelimiter</span> Character to use for closing delimiter, by default '>'
+    </li>
+
+
+  </ul>
+
+
+</div>
+
+</div>
+<div class="six-container confull">
+
+
+<h1 id="h1-bold" >Support</h1>
+<br>
+<a href="#" id="h4-bold2">Stack Overflow</a>
+
+
+<div class="program6">
+    <h6>Ask questions about specific problems you have faced, including details about what exactly you are trying</h6>
+    <h6>to do. Make sure you tag your question with ejs. You can also read through existing ejs questions.</h6>
+
+<br>
+
+<a href="#" id="h4-bold2">GitHub issues</a>
+<h6 class="program6">The issue tracker is the preferred channel for bug reports, features requests and submitting pull requests.</h6>
+</div>
+
+</div>
+
+
+
+
+<div class="six-container confull">
+
+
+<h1 id="h1-bold" >License</h1>
+
+<div class="program6">
+  <br>
+    <h6>EJS is licensed under the Apache License, version 2.0. Information can found here:</h6>
+    <a href="http://www.apache.org/licenses/.">http://www.apache.org/licenses/.</a>
+
+
+</div>
+</div>
+
+<div class="last-container">
+
+  <h6>EJS © 2112 Goldi Gupta :</h6>
+
+
+</div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+body{
+  font-family: 'Lato', arial, sans-serif;
+
+
+}
+
+.big-container{
+  background-color: #b4ca65;
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+  height: 600px;
+}
+
+
+#EJS{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+
+#nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  margin-left: 30px;
+  color: #444444;
+
+  font-size: 14px;
+  padding: 15px 10px;
+}
+
+#nav-link:hover{
+  color: #fff;
+}
+
+
+#toggler{
+  background-color: #607026;
+
+
+}
+
+
+
+
+
+
+
+.jake-pic{
+  width: 380px;
+  height: 80px;
+  margin-top: 40px;
+}
+
+.EJS-TEXT{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #a91e50;
+  font-size: 98px;
+  margin-top: 20px;
+
+}
+.EJS-ARROW{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #a91e50;
+  font-size: 60px;
+  margin-top: 20px;
+
+}
+.Embedded-text{
+  color: white;
+  font-size: 26px;
+  margin-bottom: 30px;
+
+}
+#GET-STARTED{
+  background-color: #bf225a;
+  color: white;
+  font-family: 'Montserrat', arial, sans-serif;
+  font-weight: 600;
+  border-color: #b4ca65;
+}
+
+#GET-STARTED:hover{
+  background-color: white;
+  color: #bf225a;
+  border-color: #b4ca65;
+
+}
+.down-color{
+  min-width: 100px;
+  height: 40px;
+  background: #90a93a;
+}
+
+
+
+
+#middle-container{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
+  color: #607026;
+  ;
+
+
+}
+.third-container{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+#h1-bold{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #607026;
+
+
+}
+.paragraph1{
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: black;
+}
+.row{
+  padding-top: 30px;
+}
+
+/* third container */
+.h5-all{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  color: #a91e50;
+  font-size: 18px;
+}
+i{
+  padding-right: 10px;
+}
+
+
+/* forth cointaner */
+.forth-container{
+  text-align: center;
+  background-color: #b4ca65;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.h6-textcolor{
+  font-family: 'Lato', arial, sans-serif;
+  font-weight: 400;
+  color:#607026;
+  font-size: 16px;
+  margin-top: 15px;
+
+}
+
+.five-container{
+  margin-top: 40px;
+  padding-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+  text-align: center;
+  background-color: #F7F7F7;
+
+}
+.program1{
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+
+.program2{
+  text-align:left;
+  background-color: black;
+  margin: 0 15px 0 15px;
+}
+
+.program-text{
+  color: white;
+  padding: 10px 20px 10px 20px;
+}
+#h4-bold2{
+  color: #b4ca65;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.program3{
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.program4{
+  text-align: left;
+  background-color: black;
+  margin: 0 15px 0 15px;
+  padding: 10px 20px 10px 20px;
+}
+.program-text2{
+
+  color: white;
+
+}
+li{
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+
+}
+
+.program6{
+padding-top: 10px;
+
+}
+
+.six-container{
+
+  text-align: center;
+    background-color: #F7F7F7;
+    margin-top: 60px;
+    padding-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+
+.last-container{
+  margin-top: 60px;
+  text-align: center;
+  background-color: #3f4a19;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+
+}
+.color-fill{
+  color: #c7254e;
+  background-color: #FEE3EC;
+
+}
+@media(max-width: 581px){
+  .EJS-TEXT{
+    font-size: 66px;
+  }
+  .EJS-ARROW{
+    font-size: 40px;
+  }
+  .Embedded-text{
+    font-size: 20px;
+  }
+  .big-container{
+    height: 450px;
+  }
+  .confull{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+
+
+  }
+  #h6pro{
+    margin-right: 10px;
+
+  }
+  .col-lg-4{
+    margin-left: 60px;
+    margin-right: 60px;
+
+  }
+
+
+}
